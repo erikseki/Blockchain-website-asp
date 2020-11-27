@@ -1,0 +1,103 @@
+﻿body {
+}
+
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--font-secundary);
+    font-weight: 900;
+}
+
+.img-conhecimentos-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+    .img-conhecimentos-wrapper .image-center {
+        background-image: url("../imagens/bg.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: center;
+        padding-bottom: 2rem;
+        z-index:;
+    }
+
+.text-conhecimentos .title {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.text-conhecimentos p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-conhecimentos2 .title {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.text-conhecimentos2 p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text-conhecimentos3 .title {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+
+.text-conhecimentos3 p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-conhecimentos4 .title {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.text-conhecimentos4 p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.upfooter {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background: #F7971E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 2rem;
+    z-index: 0;
+}
+
+    .upfooter h3 {
+        font-family: system-ui;
+        color: white;
+    }
+body {
+}

@@ -1,0 +1,225 @@
+﻿body {
+}
+
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--font-secundary);
+    font-weight: 900;
+    color: #F7971E;
+}
+
+.img-conhecimentos-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+    .img-conhecimentos-wrapper .image-center {
+        background-image: url("../imagens/bg.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: center;
+        padding-bottom: 2rem;
+        z-index:;
+    }
+
+.text-conhecimentos .title {
+    font-size: 3rem;
+    padding-top: 2rem;
+    font-family:monospace;
+}
+
+.text-conhecimentos p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text-conhecimentos2 .title {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.text-conhecimentos2 p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text-conhecimentos3 .title {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+
+.text-conhecimentos3 p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.upfooter {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background: #F7971E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 2rem;
+    z-index: 0;
+}
+
+.upfooter h3 {
+    font-family: system-ui;
+    color: white;
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos1 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos1 img {
+        width: 61rem;
+    }
+}
+
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos2 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos2 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos3 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos3 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos4 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos4 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos5 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos5 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos6 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos6 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos7 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos7 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos8 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos8 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos9 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos9 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos10 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos10 img {
+        width: 61rem;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .text-conhecimentos11 img {
+        width: 37rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .text-conhecimentos11 img {
+        width: 61rem;
+    }
+}
+

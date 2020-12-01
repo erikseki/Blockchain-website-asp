@@ -63,7 +63,7 @@
 
 ## Banco de Dados
 
-> Sql Server Management Studio / FireBase 
+> Banco de Dados SQL Server para as três plataformas de desenvolvimento (Website,Mobile e Desktop), cada um com suas relativas querys e scripts de consultas. De forma geral, todos os bancos tem por objetivo o armazenamento de dados sensíveis de cada clientes e usuário. Com aderência a lgpd, todos dados que são tratados e transferidos para o banco de dado de forma a conseguir consultar e informar possíveis atendimentos.
 
 <!-- COMO O SITE FUNCIONA ? 
      API's 

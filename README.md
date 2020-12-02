@@ -75,7 +75,10 @@
      acessibilidade
 -->
 
-## Contribuidores
+# Desenvolvedor do site 
+* Erik Hideyuki Yoshimoto Seki 
+
+## Contribuidores do Projeto
 * Gabriel Fernandes Lemos
 * Matheus Nunes Nepomuceno
 * Erik Hideyuki Yoshimoto Seki

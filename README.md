@@ -75,15 +75,15 @@
      acessibilidade
 -->
 
-# Desenvolvedor do site 
+## Desenvolvedor do site 
 * Erik Hideyuki Yoshimoto Seki 
 
 ## Contribuidores do Projeto
 * Gabriel Fernandes Lemos
-* Matheus Nunes Nepomuceno
-* Erik Hideyuki Yoshimoto Seki
+* Matheus Nunes Nepomuceno 
+* Erik Hideyuki Yoshimoto Seki 
 * Paulo Rogério R. Gomes Junior
-* Gabriel Franco Garcia Rodrigues de Paula
+* Gabriel Franco Garcia Rodrigues de Paula 
 
 ## Pesquisas 
 * [Github](https://rockcontent.com/br/blog/o-que-e-github/)

@@ -1,0 +1,114 @@
+﻿body {
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--font-secundary);
+    font-weight: 900;
+    padding-bottom: 69px;
+    color: #F7971E;
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+}
+
+.header-principal {
+    justify-content: center;
+    display: flex;
+}
+
+.data-info {
+    padding-bottom: 6rem;
+    font-style: italic;
+}
+
+.textbottom {
+    padding-bottom: 3rem;
+}
+
+.projeto {
+    display: flex;
+    justify-content:center;
+}
+
+.card {
+    width: 68rem;
+    height: 26rem;
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card-img-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: .8rem;
+    
+}
+
+.card-img-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: .8rem;
+    opacity: .8;
+}
+
+.card-info {
+    bottom: 0;
+    position: absolute;
+    padding: 2rem;
+    transition: all .3s;
+    opacity: .4;
+    visibility: visible;
+}
+
+    .card-info h3 {
+        font-family: fantasy;
+        font-weight: 300;
+        color: #eee;
+    }
+
+    .card-info h4 {
+        font-family: var(--font-primary);
+        font-weight: 500;
+        color: #F7971E;
+    }
+
+    .card-info p {
+        font-family: var(--font-primary);
+        font-weight: 500;
+        color: #ffffff;
+    }
+    /*
+.card-info button {
+    font-family: var(--font-action);
+    font-weight: 500;
+    background: #F7971E;
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+*/
+
+    .card-info a {
+        color: #F7971E;
+        font-size: 2rem;
+    }
+
+.card:hover .card-info {
+    opacity: 1;
+    bottom: 2rem;
+    visibility: visible;
+}
+
+.card:hover .card-img-wrapper img {
+    opacity: .4;
+}

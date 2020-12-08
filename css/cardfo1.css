@@ -1,0 +1,155 @@
+﻿body {
+}
+
+.titlepmy {
+    text-align: center;
+    font-size: 51px;
+    font-family: var(--font-secundary);
+    font-weight: 900;
+    color: #f7971e;
+    padding-right: 4rem;
+    position: relative;
+    top: 0rem;
+    text-shadow: -1.2rem 1.4rem 4px rgba(0,0,0,0.1)
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--font-secundary);
+    font-weight: 900;
+}
+
+.img-conhecimentos-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.img-conhecimentos-wrapper .image-center {
+    background-image: url('../imagens/werner-du-plessis-6dDHofabCQ8-unsplash.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-bottom: 2rem;
+    z-index: 0;
+}
+
+
+.iconeautor {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+.far fa-user-circle {
+    font-size: 2.7rem;
+}
+
+.iconeautor div {
+    padding-top: 0.5rem;
+    padding-left: 0.7rem;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.iconeautor:hover {
+    color: #F7971E;
+}
+
+.text-conhecimentos {
+    padding: 30px 210px;
+}
+
+.text-conhecimentos .title {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.text-conhecimentos p {
+    font-size: 1.7rem;
+    padding: 16px 135px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:3rem;
+    text-align: start;
+}
+
+.text-conhecimentos ul li {
+    font-size: 1.7rem;
+    padding: 16px 135px;
+    color: gray;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 3rem;
+    text-align: start;
+}
+
+.text-conhecimentos .al {
+    border-bottom: 2px solid #fb0;
+    color: grey;    
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+.text-conhecimentos2 .title {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.text-conhecimentos2 p {
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+
+}
+.button {
+    font-family: var(--font-action);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    background: #F7971E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    animation: movebanner 1s 0.9s forwards;
+}
+
+.banner button:hover {
+    color: black;
+}
+
+
+.upfooter {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background: #F7971E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 2rem;
+    z-index: 0;
+}
+
+.upfooter h3 {
+    font-family: system-ui;
+    color: white;
+}

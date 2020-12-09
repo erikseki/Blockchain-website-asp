@@ -72,10 +72,7 @@
 
 
 
-        </div>
-
-
-            
+                    </div>
 
             <!--
             <div class="tags">

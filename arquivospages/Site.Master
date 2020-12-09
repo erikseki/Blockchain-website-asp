@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="blockchain_website.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="pt">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/masterpage.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - INVESTCRIP</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens//favicon-16x16.png">
+    <link rel="manifest" href="js/site.webmanifest">
+
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form class="container">
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
+        <header>
+            <div class="img-wrapper">
+                <img src="imagens/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg" alt="">
+            </div>
+
+
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="/WebForm1" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="/Conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="/Projetos" class="menu-link">Projeto</a></li>
+                    <li class="menu-item"><a href="/Notícias" class="menu-link">Notícias</a></li>
+                    <li class="menu-item"><a href="/Contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="/Sobre" class="menu-link">Sobre</a></li>
+
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="asd"><i class="fab fa-facebook"></i></a>
+                <a href="asd"><i class="fab fa-github-alt"></i></a>
+                <a href="asd"><i class="fab fa-twitter"></i></a>
+            </div>
+        </aside>
+
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+        </div>
+
+   
+    </form>
+ 
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col space">
+                    <div class="info-footer">Conteúdo</div>
+                   <ul>
+                     <li class="menu-item"><a href="/WebForm1" class="menu-footer">Recursos</a></li>
+                    <li class="menu-item"><a href="/pesquisartendencias" class="menu-footer">Pesquisar tendências</a></li>
+                    <li class="menu-item"><a href="/Notícias" class="menu-footer">Notícias</a></li>
+                    </ul>
+
+                    <hr />
+                </div>
+
+                <div class="col space">
+                   <img src="imagens/investcrip.png" />
+                    <div class="brandname">Invest Crip </div>
+                    <div class="subtitle">Desenvolvimento de sistemas</div>
+                </div>
+
+                <div class="col space">
+                    <div class="info-footer">Informação</div>
+                    <ul>
+                     <li class="menu-item"><a href="/Sobre" class="menu-footer">Sobre nós</a></li>
+                    <li class="menu-item"><a href="/Equipe" class="menu-footer">Equipe</a></li>
+                    <li class="menu-item"><a href="/Contato" class="menu-footer">Contato</a></li>
+                    </ul>
+
+                    <hr />
+
+                </div>
+            </div>
+            <div class="tye">@investcrip.com</div>
+        </div>
+    </footer>
+
+</body>
+    <script src="js/script.js"></script>
+</html>

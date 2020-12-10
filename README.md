@@ -43,8 +43,8 @@
 * [Estratégia de Negócio](#Estratégia-de-Negócio)
   * [Serviço de Hospedagem](#Serviço-de-Hospedagem)
 * [Banco de Dados](#Banco-de-Dados)
-  * []()
-  
+
+
 ## Introdução
 
 > Com o grande crescimento tecnológico, a Instituição UNIP (Universidade Paulista) achou viável declarar um Projeto Integrado Multidisciplinar com o tema "Gerenciamento de Blockchain" para aqueles que estão se formando em desenvolvimento de sistemas, entretanto, não satisfeito com a criação do sistema em Desktop, será necessário desenvolver um site (web) comercial sobre os nossos serviços e um aplicativo mobile informando nossas atividades e conteúdos relacionadas aos valores de criptomoedas.   
@@ -67,15 +67,19 @@
 
 > Banco de Dados SQL Server para as três plataformas de desenvolvimento (Website,Mobile e Desktop), cada um com suas relativas querys e scripts de consultas. De forma geral, todos os bancos tem por objetivo o armazenamento de dados sensíveis de cada clientes e usuário. Com aderência a lgpd, todos dados que são tratados e transferidos para o banco de dado de forma a conseguir consultar e informar possíveis atendimentos.
 
-<!-- COMO O SITE FUNCIONA ? 
-     API's 
+<!-- COMO O SITE FUNCIONA ?  
      Responsividade
-     Serviços de Hospedagem
      stylesheet and js
-     SEO basics (resultados de mecanismos de busca online)
-     banco de dados e qual
+     SEO basics (resultados de mecanismos de busca online
      acessibilidade
 -->
+
+## Acessibilidade
+ > Quando se tratamos de acessibilidade, a primeira idéia que imaginamos é aos portadores de deficiências, portanto, é de prioridade disponibilizar acessos facieis e não tão complexos para aqueles que, tinham dificuldades mas agora se tornará integrado em nossos projeto. Visto que, para maior entendimento das nossas práticas e elaborações do projeto de sistema, os portadores de deficiências visuais necessitam de carência para conseguir compreender todos os nossos caminhos de tomadas de decições. É também importante citar que para a leitura dos nossos serviços através do nosso Website, foi introduzido unidades de medidas (REM) que possibilitarão o aumento das fontes sem que haja problemas relacionados ao entendimento deste. 
+
+## Responsividade 
+> Não há muito segredo no que discutir sobre Responsividade, desde o início da construção do website, ja tinhamos em mente o tratamento de mudanças de margens e de pixels, portanto, quando se trata de relevância na compatibilidade entre dispositiveis móveis e computadores, a responsividade é indispensável para a melhor reprodução aos nossos clientes. 
+
 
 ## Contribuidores do Projeto
 * Gabriel Fernandes Lemos

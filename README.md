@@ -57,6 +57,8 @@
 
 > Para não focarem somente em um tipo de negócio, lançamos o mais novo jeito de ganhar dinheiro e investir ainda mais. Para os seus clientes que realizam compras em seu dia a dia via web e QR CODE, se utilizarem o aplicativo receberão porcentagens de valores (de acordo com cada loja) de cashback de volta. Esses valores são acumulados dando a chance para os clientes investirem mais os seus valores em ações ou simplesmente recuperar os valores. Os clientes que indicarem novas pessoas para se cadastrarem através de um link que ele gera em sua própria conta, receberam um valor de 20 reais por indicação. O indicado também vai ter grande benefícios, recebe 30 reais em sua conta após fazer uma adição de fundos em sua conta para efetuar investimentos. Em sua carteira o cliente pode ter a opção de salvar um cartão de crédito, temos parcerias com diversas empresas e lojas. Ao efetuar o pagamento pela primeira vez, o cliente receberá descontos em seus pagamentos através de cupons gerados pela própria plataforma do app do projeto.
 
+<img src="https://user-images.githubusercontent.com/56083781/101787392-c90a2200-3add-11eb-86b5-580d3f395bf1.png" />
+
 ## Serviço de Hospedagem
 
 > Serviço de Hospedagem nada mais é do que um serviço que possibilita a pessoas ou empresas com sistemas online a guardar páginas, arquivos, informações, imagens, vídeo, ou qualquer conteúdo acessível por Web. Portanto, para melhor desempenho, adquirimos um domínio e o Smaterasp.net como serviço e configuramos o DNS para melhor acessibilidade do site com o objetivo de disponibilizar conteúdo comercial para usuário e clientes que querem usufruir nossas informações e nossos serviços da empresa. 
